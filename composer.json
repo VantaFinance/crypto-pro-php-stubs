@@ -21,12 +21,8 @@
 			"email": "kern.usr@gmail.com"
 		}
 	],
-	"support": {
-		"issues": "https://github.com/webmasterskaya/crypto-pro-php-stubs/issues",
-		"source": "https://github.com/webmasterskaya/crypto-pro-php-stubs"
-	},
 	"require": {
-		"php": ">7.2 <8.0"
+		"php": "^7.2|^8.0"
 	},
 	"autoload": {
 		"classmap": [
