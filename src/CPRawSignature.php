@@ -1,12 +1,16 @@
 <?php
 
+declare(strict_types=1);
+
 class CPRawSignature
 {
-	
 	public function __construct(){}
-	
+
 	public function VerifyHash(){}
-	
-	public function SignHash(){}
-	
+
+
+	/**
+	 * @return non-empty-string
+	 */
+	public function SignHash(\CPHashedData $hd, CPCertificate $cert): string {}
 }
