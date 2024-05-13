@@ -1,8 +1,6 @@
 # Подсказки в IDE для libphpcades
 phpcades - расширение КриптоПро CSP для языка PHP
 
-![Packagist PHP Version](https://img.shields.io/packagist/dependency-v/webmasterskaya/crypto-pro-php-stubs/php)
-![Packagist License](https://img.shields.io/packagist/l/webmasterskaya/crypto-pro-php-stubs)
 
 Этот репозиторий содержит наиболее полные подсказки для работы с расшерением phpcades, которые позволяют использовать автозаполнение в современных IDE.
 
@@ -12,7 +10,7 @@ phpcades - расширение КриптоПро CSP для языка PHP
 ## Установка
 ### Для composer
 ```shell
-composer require --dev webmasterskaya/crypto-pro-php-stubs
+composer require --dev vanta/crypto-pro-php-stubs
 ```
 
 ### Для git

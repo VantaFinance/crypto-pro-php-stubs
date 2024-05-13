@@ -1,5 +1,5 @@
 {
-	"name": "webmasterskaya/crypto-pro-php-stubs",
+	"name": "vanta/crypto-pro-php-stubs",
 	"type": "library",
 	"description": "Самая полная библиотека подсказок IDE libphpcades (КриптоПро), которая обеспечивает автозаполнение в современных IDE.",
 	"keywords": [
@@ -19,6 +19,10 @@
 		{
 			"name": "Artem Vasilev",
 			"email": "kern.usr@gmail.com"
+		},
+		{
+			"name": "Vanta Team",
+			"homepage": "https://vanta.ru"
 		}
 	],
 	"require": {
