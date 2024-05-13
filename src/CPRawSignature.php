@@ -12,5 +12,5 @@ class CPRawSignature
 	/**
 	 * @return non-empty-string
 	 */
-	public function SignHash(\CPHashedData $hd, CPCertificate $cert): string {}
+	public function SignHash(\CPHashedData $hd, \CPCertificate $cert): string {}
 }
