@@ -48,7 +48,7 @@ class CPHashedData
 	/**
 	 * Возвращает результат операции хэширования
 	 *
-	 * @return string
+	 * @return non-empty-string
 	 */
 	public function get_Value()
 	{
