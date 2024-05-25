@@ -28,9 +28,9 @@
 	"require": {
 		"php": "^7.2|^8.0"
 	},
-	"autoload": {
-		"classmap": [
-			"src/"
-		]
+	"autoload-dev": {
+		"psr-4": {
+			"\\": "src/"
+		}
 	}
 }
