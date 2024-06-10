@@ -7,13 +7,6 @@
  * @link https://docs.cryptopro.ru/cades/reference/cadescom/cadescom_class/cpcertificate
  * @link https://docs.microsoft.com/en-us/windows/win32/seccrypto/certificate
  *
- * @property-read string          $SerialNumber
- * @property-read string          $Thumbprint
- * @property-read string          $SubjectName
- * @property-read string          $IssuerName
- * @property-read int             $Version
- * @property-read string|DateTime $ValidToDate
- * @property-read string|DateTime $ValidFromDate
  */
 class CPCertificate
 {
@@ -259,7 +252,7 @@ class CPCertificate
 	/**
 	 * Дата, до которой сертификат действителен.
 	 *
-	 * @return string|DateTime
+	 * @return non-empty-string
 	 */
 	public function get_ValidToDate()
 	{
@@ -268,7 +261,7 @@ class CPCertificate
 	/**
 	 * Дата, с которой сертификат действителен.
 	 *
-	 * @return string|DateTime
+	 * @return non-empty-string
 	 */
 	public function get_ValidFromDate()
 	{
