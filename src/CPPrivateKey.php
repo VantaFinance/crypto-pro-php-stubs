@@ -1,18 +1,48 @@
 <?php
 
-class CPPrivateKey
+declare(strict_types=1);
+
+final class CPPrivateKey
 {
-	
-	public function __construct(){}
-	
-	public function get_ContainerName(){}
-	
-	public function get_UniqueContainerName(){}
-	
-	public function get_ProviderName(){}
-	
-	public function get_ProviderType(){}
-	
-	public function get_KeySpec(){}
-	
+	/**
+	 * Возвращает строку с именем контейнера закрытого ключа
+	 *
+	 * @return non-empty-string
+	 */
+	public function get_ContainerName(): string
+	{
+	}
+
+
+	/**
+	 * Возвращает уникальное имя контейнера закрытого ключа
+	 *
+	 * @return non-empty-string
+	 */
+	public function get_UniqueContainerName(): string
+	{
+	}
+
+	/**
+	 * Возвращает имя криптографического провайдера
+	 *
+	 * @return non-empty-string
+	 */
+	public function get_ProviderName(): string
+	{
+	}
+
+	/**
+	 * Возвращает тип криптографического провайдера
+	 */
+	public function get_ProviderType(): int
+	{
+	}
+
+	/**
+	 * Возвращает назначение ключа
+	 */
+	public function get_KeySpec(): int
+	{
+	}
 }
