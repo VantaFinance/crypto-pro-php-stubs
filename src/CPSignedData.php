@@ -65,7 +65,7 @@ class CPSignedData
 	 *                                    </tr>
 	 *                                    </tbody>
 	 *                                    </table>
-	 * @param   bool       $bDetached     Вид подписи: отделенная (true) или совмещенная (false). По умолчанию совмещенная.
+	 * @param   int        $bDetached     Вид подписи: отделенная 1 или совмещенная 0. По умолчанию совмещенная.
 	 * @param   mixed      $EncodingType  Кодировка возвращаемой подписи. По умолчанию ENCODE_BASE64.
 	 *                                    Может принимать следующие значения:
 	 *                                    <table>
@@ -98,7 +98,7 @@ class CPSignedData
 	 *
 	 * @return string|void
 	 */
-	public function SignCades(\CPSigner $Signer, $CadesType, bool $bDetached, $EncodingType)
+	public function SignCades(\CPSigner $Signer, $CadesType, int $bDetached, $EncodingType)
 	{
 	}
 
